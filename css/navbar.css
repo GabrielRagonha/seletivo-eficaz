@@ -1,0 +1,21 @@
+navbar {
+  margin: 0 1.875rem 0 0;
+}
+
+.navItem {
+  align-items: center;
+  text-align: left;
+  margin: 5px 0;
+  background-color: #56CCF2;
+  text-decoration: none;
+  width: 100%;
+  transition: 0.3s;
+}
+
+.navItem:hover {
+  background-color: #019DDE;
+}
+
+.navItem img {
+  margin: 0 10px;
+}

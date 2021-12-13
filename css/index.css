@@ -1,0 +1,129 @@
+.box {
+  flex: 1;
+  background-color: #FFFFFF;
+  border: 1px solid #DADBDB;
+  border-radius: .3125rem;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+  margin: 0 0 9.375rem 0;
+}
+
+.container {
+  max-width: 1280px;
+}
+
+.register {
+  text-align: center;
+  color: #56CCF2;
+}
+
+form {
+  width: 100%;
+}
+
+.register,.forms {
+  padding: 1.875rem 1.875rem 0 1.875rem;
+}
+
+.listTitle {
+  padding: 1.25rem;
+  font-weight: 400;
+}
+
+.filters {
+  padding: 1.25rem 0 1.25rem 1.25rem;
+}
+
+.tableHeader, .filters {
+  text-align: left;
+  background-color: #E4E4E4;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.actions {
+  text-align: center;
+}
+
+td {
+  padding: 1.25rem;
+}
+
+tr, th{
+  padding: 1.25rem;
+  border-top: 1px solid #DADBDB;
+}
+
+.btnEdit {
+  background-color: #27AE60;
+  margin: 0 0 .625rem 0;
+  transition: 1s;
+}
+
+.btnEdit:hover {
+  background-color: #188043;
+}
+
+.btnDelete {
+  background-color: #FF5656;
+  transition: 1s;
+}
+
+.btnDelete:hover {
+  background-color: #c52626;
+}
+
+.formsLS, .formsRS {
+  padding: .625rem;
+  width: 50%;
+  justify-content: space-between;
+  font-size: .875rem;
+}
+
+input {
+  padding: .3125rem;
+  border: 1px solid #DADBDB;
+  border-radius: .3125rem;
+  transition: 0.5s;
+}
+
+input:focus {
+  border: 1px solid #56cbf2;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.040);
+}
+
+.logo {
+ margin: 3.125rem 0 1.25rem 0;
+}
+
+label {
+  color: rgb(83, 83, 83);
+  margin: .625rem 0 .3125rem 0;
+}
+
+.submitContainer {
+  margin: 1.25rem 0 ;
+  padding: .625rem;
+}
+
+.btnSubmit {
+  background-color: #27AE60;
+  transition: 1s;
+}
+
+.btnSubmit:hover {
+  background-color: #10813f;
+}
+
+.cityRow {
+  width: 100%;
+}
+
+.cityField {
+  width: 55%;
+}
+
+.ufField {
+  width: 40%;
+}
