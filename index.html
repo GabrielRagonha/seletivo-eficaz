@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<link rel="stylesheet" href="css/navbar.css">
+<link rel="stylesheet" href="css/index.css">
+<link rel="stylesheet" href="css/global.css">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Eficaz | Página inicial</title>
+</head>
+
+<body>
+
+    <div class="logo">
+        <img src="img/logo-black.png">
+    </div>
+
+    <div class="container flex">
+        <navbar>
+            <button class="registerBtn btn navItem flex">
+                <img src="img/user.svg">
+                Cadastro
+                </img>
+            </button>
+
+            <button class="listBtn btn navItem flex">
+                <img src="img/users.svg">
+                Lista de cadastrados
+                </img>
+            </button>
+        </navbar>
+
+        <div class="box1 box flex column none">
+            <h1 class="register">CADASTRO</h1>
+            <form class="flex column forms">
+                <div class="flex row">
+                    <div class="formsLS flex column">
+                        <label for="seu_email">E-mail pessoal do candidato</label>
+                        <input type="email" id="seu_email" placeholder="Ex: jorge@hotmail.com" required>
+
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" placeholder="Ex: jorge@eficaz.com" required>
+
+                        <label for="rua">Rua</label>
+                        <input type="text" id="rua" placeholder="Ex: Avenida Brasil" required>
+
+                        <label for="complemento">Complemento</label>
+                        <input type="text" id="complemento" placeholder="Ex: Bloco 2">
+
+                        <label for="cep">CEP</label>
+                        <input maxlength="9" type="text" id="cep" placeholder="Ex: 99999-999" required>
+                    </div>
+
+                    <div class="formsRS flex column">
+                        <label for="nome">Nome completo</label>
+                        <input type="text" id="nome" placeholder="Ex: Jorge Amaral Nogueira" required>
+
+                        <label for="telefone">Telefone (DDD)</label>
+                        <input maxlength="15" type="text" id="telefone" placeholder="Ex: (14) 99999-9999" required>
+                        
+                        <label for="numero">N.º</label>
+                        <input type="text" id="numero" placeholder="Ex: 1234" required>
+
+                        <label for="bairro">Bairro</label>
+                        <input type="text" id="bairro" placeholder="Ex: Jardim Paulista">
+
+                        <div class="cityRow flex row spaceBetween">
+                            <div class="cityField flex column">
+                                <label for="cidade">Cidade</label>
+                                <input type="text" id="cidade" placeholder="Ex: São Paulo" required>
+                            </div>
+
+                            <div class="ufField flex column">
+                                <label for="uf">UF</label>
+                                <input maxlength="2" type="text" id="uf" placeholder="Ex: SP" required>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="submitContainer flex end">
+                    <button class="btn btnSubmit" type="submit">Cadastrar</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="box2 box flex column none">
+            <div class="flex column">
+                <h4 class="listTitle">Lista de Cadastrados</h4>
+                <h3 class="filters">FILTROS</h3>
+                <table>
+                    <tr class="tableHeader">
+                        <th>Nome</th>
+                        <th>E-mail</th>
+                        <th>Endereço completo</th>
+                        <th>Telefone</th>
+                        <th class="actions">Ação</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+
+
+</html>
